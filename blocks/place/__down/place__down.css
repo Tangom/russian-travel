@@ -1,0 +1,12 @@
+.place__down {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .place__down {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+  }
+}
