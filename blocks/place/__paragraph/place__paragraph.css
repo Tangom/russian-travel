@@ -2,7 +2,13 @@
   max-width: 484px;
   font-size: 18px;
   line-height: 1.67;
-  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0 0 24px;
+}
+
+.place__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {

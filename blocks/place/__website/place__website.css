@@ -1,6 +1,8 @@
 .place__website {
   width: max-content;
-  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   margin: 0;
   padding-left: 40px;
 }

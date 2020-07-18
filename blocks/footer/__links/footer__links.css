@@ -1,6 +1,7 @@
 .footer__links {
   display: flex;
   justify-content: space-around;
+  list-style-type: none;
   margin: 92px 0 24px;
   padding: 0;
 }
@@ -21,7 +22,6 @@
   .footer__links {
     flex-direction: column;
     justify-content: start;
-    margin: 0;
-    padding: 0;
+    margin: 64px 118px 48px 16px;
   }
 }
