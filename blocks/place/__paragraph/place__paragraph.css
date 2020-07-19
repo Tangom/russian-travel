@@ -5,6 +5,7 @@
   font-style: normal;
   font-weight: normal;
   margin: 0 0 24px;
+  transition-duration: 0.2s;
 }
 
 .place__paragraph:last-child {

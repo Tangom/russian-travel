@@ -8,6 +8,7 @@
   font-weight: normal;
   margin: 0;
   padding: 0;
+  transition-duration: 0.2s;
 }
 
 .place__link:hover {

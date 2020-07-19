@@ -14,8 +14,8 @@
     <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="Логотип заголовка">
       <nav class="header__lang-links">
-        <a class="header__lang-link header__lang-link_ru" href="#">Ru</a>
-        <a class="header__lang-link header__lang-link_en" href="#">En</a>
+        <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+        <a class="header__lang-link" href="#">En</a>
       </nav>
     </header>
 
@@ -39,19 +39,19 @@
           километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
           <li>Часовых поясов
-            <span class="font-weight-normal">11</span>
+            <span class="intro__span-accent">11</span>
           </li>
           <li>Объектов природного наследия ЮНЕСКО
-            <span class="font-weight-normal">12</span>
+            <span class="intro__span-accent">12</span>
           </li>
           <li>Объектов культурного наследия ЮНЕСКО
-            <span class="font-weight-normal">16</span>
+            <span class="intro__span-accent">16</span>
           </li>
           <li>Природных заповедников
-            <span class="font-weight-normal">105</span>
+            <span class="intro__span-accent">105</span>
           </li>
           <li>Аэропортов
-            <span class="font-weight-normal">241</span>
+            <span class="intro__span-accent">241</span>
           </li>
         </ul>
       </section>
@@ -77,7 +77,7 @@
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
               <abbr class="place__url-heading">url</abbr>
-              <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
+              <a class="place__link" target="_blank" href="http://park-kosa.ru">park-kosa.ru</a>
             </div>
           </div>
           <div class="place__down">
@@ -103,7 +103,8 @@
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
               <abbr class="place__url-heading">url</abbr>
-              <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National
+              <a class="place__link" target="_blank"
+                href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National
                 Geographic</a>
             </div>
           </div>
@@ -130,7 +131,7 @@
             <h2 class="place__title">Алтай</h2>
             <div class="place__website">
               <abbr class="place__url-heading">url</abbr>
-              <a class="place__link"
+              <a class="place__link" target="_blank"
                 href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
             </div>
           </div>
@@ -155,7 +156,7 @@
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
               <abbr class="place__url-heading">url</abbr>
-              <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+              <a class="place__link" target="_blank" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
             </div>
           </div>
           <div class="place__down">
@@ -177,7 +178,7 @@
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
               <abbr class="place__url-heading">url</abbr>
-              <a class="place__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
+              <a class="place__link" target="_blank" href="http://vodlozero.ru">http://vodlozero.ru/</a>
             </div>
           </div>
           <div class="place__down">
@@ -198,7 +199,7 @@
       </section>
 
       <section class="cover">
-        <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+        <a class="cover__overlay" target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala">
           <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе и iframes — путешествие от столицы до
             Байкала
@@ -211,20 +212,20 @@
     <footer class="footer">
       <nav>
         <ul class="footer__links">
-          <li>
-            <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+          <li class="footer__child">
+            <a class="footer__link" target="_blank" href="https://yandex.ru/maps">Карты</a>
           </li>
-          <li>
-            <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+          <li class="footer__child">
+            <a class="footer__link" target="_blank" href="https://yandex.ru/pogoda">Погода</a>
           </li>
-          <li>
-            <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+          <li class="footer__child">
+            <a class="footer__link" target="_blank" href="https://rasp.yandex.ru">Расписание</a>
           </li>
-          <li>
-            <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
+          <li class="footer__child">
+            <a class="footer__link" target="_blank" href="https://calendar.yandex.ru">Календарь</a>
           </li>
-          <li>
-            <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+          <li class="footer__child">
+            <a class="footer__link" target="_blank" href="https://travel.yandex.ru">Путешествия</a>
           </li>
         </ul>
       </nav>
