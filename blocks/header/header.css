@@ -1,25 +1,11 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1184px;
+  height: 100vh;
+  width: 100%;
+  background: center url("https://static.tildacdn.com/lib/unsplash/f952d2ea-8324-fcf2-639d-840b9e2184a9/photo.jpg");
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  overflow: hidden;
   margin: 0 auto;
   transition-duration: 0.2s;
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .header {
-    max-width: 928px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .header {
-    max-width: 720px;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .header {
-    max-width: 288px;
-  }
 }

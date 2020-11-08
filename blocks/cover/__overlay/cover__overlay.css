@@ -1,7 +1,7 @@
 .cover__overlay {
   max-width: 1184px;
   overflow: hidden;
-  background-color: rgba(42, 44, 47, 0.3);
+  background-color: rgba(42, 44, 47, .6);
   transition-duration: 0.2s;
   position: relative;
   z-index: 1;
